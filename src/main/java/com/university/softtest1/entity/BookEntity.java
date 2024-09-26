@@ -22,6 +22,7 @@ public class BookEntity {
 
 
     //TODO There can be multiple authors, fix please
+    //UPD: NO
     @Column(name = "book_author", nullable = false)
     private String author;
 
